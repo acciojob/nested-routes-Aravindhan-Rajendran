@@ -6,8 +6,8 @@ const Item = () => {
 
   return (
     <div>
-      <h3>{item}</h3>
-      <p>Details about {item}.</p>
+      <h2>{item}</h2>
+      {/* Additional item details can be displayed here */}
     </div>
   );
 };

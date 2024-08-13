@@ -1,17 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom'; // Import Outlet
 
 const Layout = () => (
   <div>
     <nav>
       <ul>
-        <li><Link to="/category/women">Women</Link></li>
-        <li><Link to="/category/men">Men</Link></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/women">Women</Link></li>
         {/* Add more categories as needed */}
       </ul>
     </nav>
     <div className="main-container">
-      {/* Nested routes will be rendered here */}
+      <Outlet /> {/* Render nested routes here */}
     </div>
   </div>
 );
