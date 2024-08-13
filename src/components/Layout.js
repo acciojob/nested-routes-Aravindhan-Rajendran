@@ -10,7 +10,14 @@ const Layout = () => (
         {/* Add more categories as needed */}
       </ul>
     </nav>
+<<<<<<< HEAD
     <main>
+=======
+    <div className="main">
+      <div>
+        
+      </div>
+>>>>>>> c702a7f98267c08935cc35be6c79d8145424706a
       <Outlet /> {/* Render nested routes here */}
     </main>
   </div>
