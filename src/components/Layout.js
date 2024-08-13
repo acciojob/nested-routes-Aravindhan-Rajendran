@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom'; // Import Outlet
+import { Link, Outlet } from 'react-router-dom';
 
 const Layout = () => (
   <div>
@@ -10,9 +10,9 @@ const Layout = () => (
         {/* Add more categories as needed */}
       </ul>
     </nav>
-    <div className="main-container">
+    <main>
       <Outlet /> {/* Render nested routes here */}
-    </div>
+    </main>
   </div>
 );
 

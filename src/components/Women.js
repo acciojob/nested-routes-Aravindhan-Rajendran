@@ -14,9 +14,7 @@ const Women = () => {
           </li>
         ))}
       </ul>
-
-      {/* Placeholder for nested routes */}
-      <Outlet />
+      <Outlet /> {/* Placeholder for nested routes */}
     </div>
   );
 };
