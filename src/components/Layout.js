@@ -11,6 +11,9 @@ const Layout = () => (
       </ul>
     </nav>
     <div className="main">
+      <div>
+        
+      </div>
       <Outlet /> {/* Render nested routes here */}
     </div>
   </div>
