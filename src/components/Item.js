@@ -2,14 +2,11 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 
 const Item = () => {
-  const { item } = useParams();
+  const { item } = useParams(); // Retrieve the item parameter from the URL
 
   return (
     <div>
-      <h2>{item}</h2>
-      {/* Additional item details can be displayed here */}
+      <p>Selected Item: {item}</p> {/* Display the selected item */}
     </div>
   );
 };
-
-export default Item;

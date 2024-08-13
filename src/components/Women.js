@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom'; // Import Outlet
-import Item from './Item'; // Ensure this import is correct
+import { Link, Outlet } from 'react-router-dom';
 
 const Women = () => {
   const items = ['Grooming', 'Shirt', 'Trouser', 'Jewellery']; // Example items for demonstration
